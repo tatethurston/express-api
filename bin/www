@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const PORT = process.env.PORT;
+
+const app = require('../index');
+
+app.listen(PORT, () => {
+  console.log(`server listening on port ${PORT}`);
+});
+

@@ -1,0 +1,5 @@
+# Dependency directories
+node_modules/
+
+#ignore
+bin/set_dev_env.sh
